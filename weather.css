@@ -1,0 +1,59 @@
+/* ===== Weather Forecast page (weather.html) ===== */
+.weather-current {
+    display: grid;
+    grid-template-columns: 2fr repeat(4, 1fr);
+    align-items: center;
+    margin-bottom: 18px;
+}
+.weather-main { display: flex; align-items: center; gap: 15px; }
+.weather-symbol { font-size: 42px; }
+.weather-main strong, .weather-main span { display: block; }
+.weather-main strong { font-size: 31px; }
+.weather-main span { color: var(--muted); font-size: 12px; }
+
+.weather-item { border-left: 1px solid var(--border); padding-left: 20px; }
+.weather-item span, .weather-item strong { display: block; }
+.weather-item span { color: var(--muted); font-size: 10px; }
+.weather-item strong { font-size: 17px; }
+
+.forecast-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 12px;
+    margin-bottom: 18px;
+}
+.forecast-card {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 13px;
+    padding: 18px 10px;
+    text-align: center;
+}
+.forecast-card span, .forecast-card p { color: var(--muted); font-size: 11px; }
+.forecast-card strong { display: block; font-size: 28px; margin: 10px 0; }
+.forecast-card h3 { font-size: 20px; }
+
+.notice {
+    padding: 14px 16px;
+    border-radius: 10px;
+    font-size: 13px;
+    margin-bottom: 22px;
+}
+.warning-notice {
+    background: #fff7ed;
+    border: 1px solid #fed7aa;
+    color: var(--warning);
+}
+
+hr { border: none; border-top: 1px solid var(--border); margin: 22px 0; }
+
+.map-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.map-container h3 { padding: 12px 0; }
+.map-container iframe { width: 100%; height: 450px; display: block; border: none; }

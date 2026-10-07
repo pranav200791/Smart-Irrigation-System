@@ -1,0 +1,100 @@
+/* ===== Dashboard page (index.html) ===== */
+.updated { color: var(--muted); font-size: 11px; }
+
+.overview-banner {
+    background: linear-gradient(120deg, var(--green-dark), var(--green));
+    color: white;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+.overview-banner .eyebrow { color: #bde7c9; }
+.overview-banner h2 { font-size: 22px; }
+.overview-banner p { color: #ccebd4; font-size: 13px; }
+.banner-stat {
+    min-width: 125px;
+    text-align: center;
+    border-left: 1px solid rgba(255,255,255,.2);
+}
+.banner-stat strong { display: block; font-size: 34px; }
+.banner-stat span { font-size: 11px; color: #ccebd4; }
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-bottom: 18px;
+}
+.stat-card {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 13px;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.stat-icon {
+    width: 43px; height: 43px;
+    display: grid;
+    place-items: center;
+    background: var(--green-light);
+    border-radius: 11px;
+    font-size: 20px;
+}
+.stat-card span, .stat-card strong, .stat-card small { display: block; }
+.stat-card span { color: var(--muted); font-size: 11px; }
+.stat-card strong { font-size: 22px; }
+.stat-card small { font-size: 10px; color: var(--muted); }
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin-bottom: 18px;
+}
+
+.alert-list { display: grid; gap: 10px; }
+.mini-alert { display: flex; gap: 10px; padding: 11px; border-radius: 9px; background: #f8fafc; }
+.mini-alert > span { font-size: 17px; }
+.mini-alert strong, .mini-alert small { display: block; }
+.mini-alert strong { font-size: 12px; }
+.mini-alert small { color: var(--muted); font-size: 10px; }
+
+.chart { display: flex; height: 230px; }
+.chart-y {
+    width: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--muted);
+    font-size: 10px;
+    padding-bottom: 23px;
+}
+.chart-area {
+    flex: 1;
+    position: relative;
+    background: repeating-linear-gradient(to bottom, transparent 0, transparent 43px, #eef2f0 44px);
+    border-left: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+.line-chart { position: absolute; inset: 0 2% 28px 2%; }
+.line-chart span {
+    position: absolute;
+    width: 11px; height: 11px;
+    background: var(--green);
+    border: 3px solid white;
+    box-shadow: 0 0 0 1px var(--green);
+    border-radius: 50%;
+}
+.chart-x {
+    position: absolute;
+    bottom: -25px; left: 0; right: 0;
+    display: flex;
+    justify-content: space-between;
+    color: var(--muted);
+    font-size: 10px;
+}

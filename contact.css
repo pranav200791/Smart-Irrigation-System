@@ -1,0 +1,32 @@
+/* ===== Contact page (contact.html) ===== */
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin-bottom: 18px;
+}
+.contact-card {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 21px;
+}
+.contact-card > span { font-size: 30px; }
+.contact-card h3 { margin: 8px 0 4px; font-size: 16px; }
+.contact-card p { color: var(--muted); font-size: 12px; margin-bottom: 10px; }
+.contact-card strong { font-size: 13px; color: var(--green-dark); }
+
+.contact-form-card { margin-bottom: 18px; }
+.contact-form-card input,
+.contact-form-card textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.faq details { padding: 12px 0; border-bottom: 1px solid var(--border); }
+.faq details:last-child { border-bottom: none; }
+.faq summary { cursor: pointer; font-weight: 600; font-size: 13px; }
+.faq details p { color: var(--muted); font-size: 12px; margin-top: 8px; }

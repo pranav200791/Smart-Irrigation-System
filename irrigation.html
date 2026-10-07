@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Irrigation Advisory | Smart Irrigation System</title>
+<link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="irrigation-advisory.css">
+</head>
+<body>
+<div class="app">
+    <aside class="sidebar">
+        <div class="brand">
+            <div class="brand-icon">🌱</div>
+            <div><h2>Smart Irrigation</h2><span>Smart Farming</span></div>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="index.html"><span>⌂</span> Dashboard</a>
+            <a href="irrigation.html" class="active"><span>💧</span> Irrigation Advisory</a>
+            <a href="weather.html"><span>☁</span> Weather Forecast</a>
+            <a href="sensors.html"><span>▣</span> Sensors</a>
+            <a href="contact.html"><span>☎</span> Contact</a>
+        </nav>
+        <div class="sidebar-bottom">
+            <div class="farm-mini">
+                <span class="online-dot"></span>
+                <div><strong>Dahisar Farm</strong><small>Farm ID: SCF-180</small></div>
+            </div>
+        </div>
+    </aside>
+    <main class="main-content">
+        <header class="topbar">
+            <div>
+                <h1>Irrigation Advisory System</h1>
+                <p>Irrigation monitoring and crop management</p>
+            </div>
+            <div><button><a href="registration.html">Register</a></button></div>
+        </header>
+        <div class="content">
+<section id="irrigation" class="page-section">
+<div class="section-heading">
+    <div><h2>Irrigation Advisory</h2><p>Smart water management for irrigation</p></div>
+</div>
+<div class="recommendation">
+    <div class="recommendation-icon">💧</div>
+    <div>
+        <span class="eyebrow">AI RECOMMENDATION</span>
+        <h2>Next irrigation is recommended tomorrow at 6:00 AM</h2>
+        <p>Based on current soil moisture, weather forecast and crop growth stage.</p>
+    </div>
+    <div class="recommendation-value"><strong>35,000 L</strong><span>Estimated water required</span></div>
+</div>
+<div class="two-column">
+    <article class="card">
+        <div class="card-header"><div><h3>Current Irrigation Status</h3><p>Field water condition</p></div></div>
+        <div class="moisture-meter">
+            <div class="meter-value">62%</div>
+            <div class="meter"><div style="width:62%"></div></div>
+            <strong>Optimal Soil Moisture</strong>
+            <p>Recommended range: 55% – 75%</p>
+        </div>
+        <div class="info-grid">
+            <div><span>Last Irrigation</span><strong>02 Oct, 06:00 AM</strong></div>
+            <div><span>Water Used</span><strong>32,000 L</strong></div>
+            <div><span>Method</span><strong>Drip Irrigation</strong></div>
+            <div><span>Duration</span><strong>3.5 Hours</strong></div>
+        </div>
+    </article>
+    <article class="card">
+        <div class="card-header"><div><h3>Irrigation History</h3><p>Recent water applications</p></div></div>
+        <div class="table-wrap">
+            <table>
+                <thead><tr><th>Date</th><th>Water</th><th>Duration</th><th>Status</th></tr></thead>
+                <tbody>
+                    <tr><td>02 Oct</td><td>32,000 L</td><td>3.5 h</td><td><span class="badge success">Completed</span></td></tr>
+                    <tr><td>27 Sep</td><td>34,000 L</td><td>4 h</td><td><span class="badge success">Completed</span></td></tr>
+                    <tr><td>21 Sep</td><td>31,000 L</td><td>3.5 h</td><td><span class="badge success">Completed</span></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </article>
+</div>
+</section>
+        </div>
+        <footer><p>©2026 Smart Irrigation System. All Rights Reserved.</p></footer>
+    </main>
+</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+/* ===== Sensors page (sensors.html) ===== */
+.status-online {
+    color: var(--green);
+    background: var(--green-light);
+    padding: 7px 11px;
+    border-radius: 20px;
+    font-size: 11px;
+}
+
+.sensor-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 18px;
+}
+.sensor-card {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 13px;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.sensor-icon {
+    width: 45px; height: 45px;
+    display: grid;
+    place-items: center;
+    background: var(--green-light);
+    border-radius: 11px;
+    font-size: 20px;
+}
+.sensor-card div { flex: 1; }
+.sensor-card div span, .sensor-card div strong, .sensor-card div small { display: block; }
+.sensor-card div span { color: var(--muted); font-size: 11px; }
+.sensor-card div strong { font-size: 22px; }
+.sensor-card div small { color: var(--green); font-size: 9px; }

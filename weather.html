@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather Forecast | Smart Irrigation System</title>
+<link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="weather.css">
+</head>
+<body>
+<div class="app">
+    <aside class="sidebar">
+        <div class="brand">
+            <div class="brand-icon">🌱</div>
+            <div><h2>Smart Irrigation</h2><span>Smart Farming</span></div>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="index.html"><span>⌂</span> Dashboard</a>
+            <a href="irrigation.html"><span>💧</span> Irrigation Advisory</a>
+            <a href="weather.html" class="active"><span>☁</span> Weather Forecast</a>
+            <a href="sensors.html"><span>▣</span> Sensors</a>
+            <a href="contact.html"><span>☎</span> Contact</a>
+        </nav>
+        <div class="sidebar-bottom">
+            <div class="farm-mini">
+                <span class="online-dot"></span>
+                <div><strong>Dahisar Farm</strong><small>Farm ID: SCF-180</small></div>
+            </div>
+        </div>
+    </aside>
+    <main class="main-content">
+        <header class="topbar">
+            <div>
+                <h1>Irrigation Advisory System</h1>
+                <p>Irrigation monitoring and crop management</p>
+            </div>
+            <div><button><a href="registration.html">Register</a></button></div>
+        </header>
+        <div class="content">
+<section id="weather" class="page-section">
+<div class="section-heading">
+    <div><h2>Weather Forecast</h2><p>Weather conditions affecting your crop</p></div>
+</div>
+<div class="weather-current card">
+    <div class="weather-main">
+        <span class="weather-symbol">☀️</span>
+        <div><strong>29°C</strong><span>Partly Cloudy</span></div>
+    </div>
+    <div class="weather-item"><span>Humidity</span><strong>74%</strong></div>
+    <div class="weather-item"><span>Wind</span><strong>12 km/h</strong></div>
+    <div class="weather-item"><span>Rain Chance</span><strong>20%</strong></div>
+    <div class="weather-item"><span>Rainfall</span><strong>2 mm</strong></div>
+</div>
+<div class="forecast-grid">
+    <article class="forecast-card"><span>Today</span><strong>☀️</strong><h3>29°C</h3><p>20% Rain</p></article>
+    <article class="forecast-card"><span>Tomorrow</span><strong>🌤️</strong><h3>31°C</h3><p>10% Rain</p></article>
+    <article class="forecast-card"><span>Mon</span><strong>🌧️</strong><h3>28°C</h3><p>70% Rain</p></article>
+    <article class="forecast-card"><span>Tue</span><strong>🌦️</strong><h3>27°C</h3><p>60% Rain</p></article>
+    <article class="forecast-card"><span>Wed</span><strong>☀️</strong><h3>30°C</h3><p>15% Rain</p></article>
+    <article class="forecast-card"><span>Thu</span><strong>☀️</strong><h3>32°C</h3><p>10% Rain</p></article>
+</div>
+<div class="notice warning-notice">
+    <strong>⚠️ Weather advisory:</strong>
+    Rainfall is expected within the next 48 hours. Check irrigation requirements before watering the field.
+</div>
+<hr>
+<div class="map-container">
+    <h3>Farm Location - Google Maps</h3>
+    <iframe src="https://www.google.com/maps?q=Dahisar,Maharashtra&output=embed" width="700" height="400" title="Farm Location"></iframe>
+</div>
+</section>
+        </div>
+        <footer><p>©2026 Smart Irrigation System. All Rights Reserved.</p></footer>
+    </main>
+</div>
+</body>
+</html>

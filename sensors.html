@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sensors | Smart Irrigation System</title>
+<link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="sensors.css">
+</head>
+<body>
+<div class="app">
+    <aside class="sidebar">
+        <div class="brand">
+            <div class="brand-icon">🌱</div>
+            <div><h2>Smart Irrigation</h2><span>Smart Farming</span></div>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="index.html"><span>⌂</span> Dashboard</a>
+            <a href="irrigation.html"><span>💧</span> Irrigation Advisory</a>
+            <a href="weather.html"><span>☁</span> Weather Forecast</a>
+            <a href="sensors.html" class="active"><span>▣</span> Sensors</a>
+            <a href="contact.html"><span>☎</span> Contact</a>
+        </nav>
+        <div class="sidebar-bottom">
+            <div class="farm-mini">
+                <span class="online-dot"></span>
+                <div><strong>Dahisar Farm</strong><small>Farm ID: SCF-180</small></div>
+            </div>
+        </div>
+    </aside>
+    <main class="main-content">
+        <header class="topbar">
+            <div>
+                <h1>Irrigation Advisory System</h1>
+                <p>Irrigation monitoring and crop management</p>
+            </div>
+            <div><button><a href="registration.html">Register</a></button></div>
+        </header>
+        <div class="content">
+<section id="sensors" class="page-section">
+<div class="section-heading">
+    <div><h2>Sensor Monitoring</h2><p>Live field sensor readings</p></div>
+    <span class="status-online">● 6 Sensors Online</span>
+</div>
+<div class="sensor-grid">
+    <article class="sensor-card"><span class="sensor-icon">💧</span><div><span>Soil Moisture</span><strong>62%</strong><small>Normal range</small></div><span class="online-dot"></span></article>
+    <article class="sensor-card"><span class="sensor-icon">🌡️</span><div><span>Temperature</span><strong>29°C</strong><small>Normal range</small></div><span class="online-dot"></span></article>
+    <article class="sensor-card"><span class="sensor-icon">💦</span><div><span>Humidity</span><strong>74%</strong><small>Normal range</small></div><span class="online-dot"></span></article>
+    <article class="sensor-card"><span class="sensor-icon">🌧️</span><div><span>Rainfall</span><strong>2 mm</strong><small>Today</small></div><span class="online-dot"></span></article>
+    <article class="sensor-card"><span class="sensor-icon">🧪</span><div><span>Soil pH</span><strong>6.8</strong><small>Suitable</small></div><span class="online-dot"></span></article>
+    <article class="sensor-card"><span class="sensor-icon">☀️</span><div><span>Light Intensity</span><strong>68 klux</strong><small>Good</small></div><span class="online-dot"></span></article>
+</div>
+<article class="card">
+    <div class="card-header"><div><h3>Sensor Reading History</h3><p>Last 24 hours</p></div></div>
+    <div class="table-wrap">
+        <table>
+            <thead><tr><th>Sensor</th><th>Current</th><th>Minimum</th><th>Maximum</th><th>Status</th></tr></thead>
+            <tbody>
+                <tr><td>Soil Moisture</td><td>62%</td><td>54%</td><td>68%</td><td><span class="badge success">Online</span></td></tr>
+                <tr><td>Temperature</td><td>29°C</td><td>23°C</td><td>33°C</td><td><span class="badge success">Online</span></td></tr>
+                <tr><td>Humidity</td><td>74%</td><td>61%</td><td>84%</td><td><span class="badge success">Online</span></td></tr>
+                <tr><td>Rainfall</td><td>2 mm</td><td>0 mm</td><td>2 mm</td><td><span class="badge success">Online</span></td></tr>
+            </tbody>
+        </table>
+    </div>
+</article>
+</section>
+        </div>
+        <footer><p>©2026 Smart Irrigation System. All Rights Reserved.</p></footer>
+    </main>
+</div>
+</body>
+</html>

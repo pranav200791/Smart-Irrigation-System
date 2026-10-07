@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard | Smart Irrigation System</title>
+<link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+<div class="app">
+    <aside class="sidebar">
+        <div class="brand">
+            <div class="brand-icon">🌱</div>
+            <div><h2>Smart Irrigation</h2><span>Smart Farming</span></div>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="index.html" class="active"><span>⌂</span> Dashboard</a>
+            <a href="irrigation.html"><span>💧</span> Irrigation Advisory</a>
+            <a href="weather.html"><span>☁</span> Weather Forecast</a>
+            <a href="sensors.html"><span>▣</span> Sensors</a>
+            <a href="contact.html"><span>☎</span> Contact</a>
+        </nav>
+        <div class="sidebar-bottom">
+            <div class="farm-mini">
+                <span class="online-dot"></span>
+                <div><strong>Dahisar Farm</strong><small>Farm ID: SCF-180</small></div>
+            </div>
+        </div>
+    </aside>
+    <main class="main-content">
+        <header class="topbar">
+            <div>
+                <h1>Irrigation Advisory System</h1>
+                <p>Irrigation monitoring and crop management</p>
+            </div>
+            <div><button><a href="registration.html">Register</a></button></div>
+        </header>
+        <div class="content">
+<section id="dashboard" class="page-section">
+<div class="section-heading">
+    <div><h2>Dashboard</h2><p>Overview of your irrigation farm</p></div>
+    <span class="updated">Last updated: 03 Oct 2026, 06:30 PM</span>
+</div>
+<div class="overview-banner">
+    <div>
+        <span class="eyebrow">CURRENT CROP STAGE</span>
+        <h2>Grand Growth Stage</h2>
+        <p>Your irrigation crop is currently 142 days old.</p>
+    </div>
+    <div class="banner-stat"><strong>87%</strong><span>Crop Health</span></div>
+</div>
+<div class="stats-grid">
+    <article class="stat-card"><div class="stat-icon">💧</div><div><span>Soil Moisture</span><strong>62%</strong><small class="good">Optimal</small></div></article>
+    <article class="stat-card"><div class="stat-icon">🌡️</div><div><span>Temperature</span><strong>29°C</strong><small class="good">Normal</small></div></article>
+    <article class="stat-card"><div class="stat-icon">💦</div><div><span>Humidity</span><strong>74%</strong><small class="good">Normal</small></div></article>
+    <article class="stat-card"><div class="stat-icon">📈</div><div><span>Expected Yield</span><strong>38.5</strong><small>tons / acre</small></div></article>
+</div>
+<div class="dashboard-grid">
+    <article class="card">
+        <div class="card-header"><div><h3>Farm Information</h3><p>Basic crop and farm details</p></div></div>
+        <div class="info-grid">
+            <div><span>Farm Area</span><strong>12 Acres</strong></div>
+            <div><span>Crop Variety</span><strong>Co 86032</strong></div>
+            <div><span>Planting Date</span><strong>14 May 2026</strong></div>
+            <div><span>Crop Age</span><strong>142 Days</strong></div>
+            <div><span>Location</span><strong>Gujarat, India</strong></div>
+            <div><span>Next Irrigation</span><strong>04 Oct, 06:00 AM</strong></div>
+        </div>
+    </article>
+    <article class="card">
+        <div class="card-header"><div><h3>Quick Alerts</h3><p>Things requiring attention</p></div></div>
+        <div class="alert-list">
+            <div class="mini-alert warning"><span>💧</span><div><strong>Irrigation reminder</strong><small>Recommended tomorrow at 6:00 AM</small></div></div>
+            <div class="mini-alert info"><span>🌧️</span><div><strong>Rain forecast</strong><small>20% chance of rainfall today</small></div></div>
+            <div class="mini-alert success"><span>📡</span><div><strong>All sensors online</strong><small>Last synchronized 5 minutes ago</small></div></div>
+        </div>
+    </article>
+</div>
+<article class="card">
+    <div class="card-header"><div><h3>Soil Moisture Trend</h3><p>Last 7 days</p></div></div>
+    <div class="chart">
+        <div class="chart-y"><span>80%</span><span>60%</span><span>40%</span><span>20%</span><span>0%</span></div>
+        <div class="chart-area">
+            <div class="line-chart">
+                <span style="left:4%; bottom:45%"></span>
+                <span style="left:18%; bottom:58%"></span>
+                <span style="left:32%; bottom:52%"></span>
+                <span style="left:46%; bottom:66%"></span>
+                <span style="left:60%; bottom:62%"></span>
+                <span style="left:74%; bottom:74%"></span>
+                <span style="left:88%; bottom:69%"></span>
+            </div>
+            <div class="chart-x"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div>
+        </div>
+    </div>
+</article>
+</section>
+        </div>
+        <footer><p>©2026 Smart Irrigation System. All Rights Reserved.</p></footer>
+    </main>
+</div>
+</body>
+</html>
